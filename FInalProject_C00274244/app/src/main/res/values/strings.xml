@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FInalProject_C00274244</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rating_out_of_100">Rating out of 100</string>
+    <string name="username">Username</string>
+    <string name="game">Game</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete</string>
+    <string name="submit_and_go_to_pros_entry">Submit and Go to Pros Entry</string>
+    <string name="welcome_to_boiman_s_prime_reviews">Welcome to Boiman\'s Prime Reviews!</string>
+    <string name="tell_us_what_you_liked_about_this_game">Tell us what you liked about this game!</string>
+    <string name="what_did_you_like_about_this_game">What did you like about this game?</string>
+    <string name="next">Next</string>
+    <string name="what_did_you_not_like_about_this_game">What did you not like about this game?</string>
+    <string name="tell_us_what_you_didn_t_like_about_this_game">Tell us what you didn\'t like about this game.</string>
+    <string name="submit">Submit</string>
+    <string name="what_did_you_like_about_this_game_limit_200_chars">What did you like about this game? (Limit 200 chars.)</string>
+    <string name="what_did_you_not_like_about_this_game_limit_200_chars">What did you not like about this game? (Limit 200 chars.)</string>
+    <string name="what_did_you_like_limit_150_chars">What did you like? (Limit 150 chars.)</string>
+    <string name="what_did_you_not_like_limit_150_chars">What did you not like? (Limit 150 chars.)</string>
+</resources>

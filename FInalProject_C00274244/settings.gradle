@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "FInalProject_C00274244"

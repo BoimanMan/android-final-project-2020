@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.finalproject_c00274244.ui.main.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_prosFragment"
+            app:destination="@id/prosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prosFragment"
+        android:name="com.example.finalproject_c00274244.ProsFragment"
+        android:label="fragment_pros"
+        tools:layout="@layout/fragment_pros" >
+        <argument
+            android:name="username"
+            app:argType="string"
+            android:defaultValue="-no value-" />
+        <argument
+            android:name="game"
+            app:argType="string"
+            android:defaultValue="-no value-" />
+        <argument
+            android:name="rating"
+            app:argType="string"
+            android:defaultValue="-no value-" />
+    </fragment>
+</navigation>
